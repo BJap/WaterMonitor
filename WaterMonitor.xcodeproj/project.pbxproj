@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C59E77331A2A77340067C954 /* WatercoolerTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = C59E77321A2A77340067C954 /* WatercoolerTestClass.m */; };
+		C5A6313F1A280EED00B2BF72 /* Watercooler.m in Sources */ = {isa = PBXBuildFile; fileRef = C5A6313E1A280EED00B2BF72 /* Watercooler.m */; };
+		C5A631451A280EED00B2BF72 /* libWaterMonitor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A631391A280EED00B2BF72 /* libWaterMonitor.a */; };
+		C5A631541A28108700B2BF72 /* Watercooler.h in Headers */ = {isa = PBXBuildFile; fileRef = C5A6313C1A280EED00B2BF72 /* Watercooler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5A631461A280EED00B2BF72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5A631311A280EED00B2BF72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5A631381A280EED00B2BF72;
+			remoteInfo = WaterMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C5A631371A280EED00B2BF72 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C59E77321A2A77340067C954 /* WatercoolerTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatercoolerTestClass.m; sourceTree = "<group>"; };
+		C5A631391A280EED00B2BF72 /* libWaterMonitor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWaterMonitor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A6313C1A280EED00B2BF72 /* Watercooler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Watercooler.h; sourceTree = "<group>"; };
+		C5A6313E1A280EED00B2BF72 /* Watercooler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watercooler.m; sourceTree = "<group>"; };
+		C5A631441A280EED00B2BF72 /* WaterMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5A6314A1A280EED00B2BF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5A631361A280EED00B2BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A631411A280EED00B2BF72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A631451A280EED00B2BF72 /* libWaterMonitor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5A631301A280EED00B2BF72 = {
+			isa = PBXGroup;
+			children = (
+				C5A6313B1A280EED00B2BF72 /* WaterMonitor */,
+				C5A631481A280EED00B2BF72 /* WaterMonitorTests */,
+				C5A6313A1A280EED00B2BF72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5A6313A1A280EED00B2BF72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5A631391A280EED00B2BF72 /* libWaterMonitor.a */,
+				C5A631441A280EED00B2BF72 /* WaterMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5A6313B1A280EED00B2BF72 /* WaterMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6313C1A280EED00B2BF72 /* Watercooler.h */,
+				C5A6313E1A280EED00B2BF72 /* Watercooler.m */,
+			);
+			path = WaterMonitor;
+			sourceTree = "<group>";
+		};
+		C5A631481A280EED00B2BF72 /* WaterMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5A631491A280EED00B2BF72 /* Supporting Files */,
+				C59E77321A2A77340067C954 /* WatercoolerTestClass.m */,
+			);
+			path = WaterMonitorTests;
+			sourceTree = "<group>";
+		};
+		C5A631491A280EED00B2BF72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5A6314A1A280EED00B2BF72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C5A631531A28107000B2BF72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A631541A28108700B2BF72 /* Watercooler.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C5A631381A280EED00B2BF72 /* WaterMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A6314D1A280EED00B2BF72 /* Build configuration list for PBXNativeTarget "WaterMonitor" */;
+			buildPhases = (
+				C5A631351A280EED00B2BF72 /* Sources */,
+				C5A631361A280EED00B2BF72 /* Frameworks */,
+				C5A631371A280EED00B2BF72 /* CopyFiles */,
+				C5A631531A28107000B2BF72 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterMonitor;
+			productName = WaterMonitor;
+			productReference = C5A631391A280EED00B2BF72 /* libWaterMonitor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C5A631431A280EED00B2BF72 /* WaterMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5A631501A280EED00B2BF72 /* Build configuration list for PBXNativeTarget "WaterMonitorTests" */;
+			buildPhases = (
+				C5A631401A280EED00B2BF72 /* Sources */,
+				C5A631411A280EED00B2BF72 /* Frameworks */,
+				C5A631421A280EED00B2BF72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5A631471A280EED00B2BF72 /* PBXTargetDependency */,
+			);
+			name = WaterMonitorTests;
+			productName = WaterMonitorTests;
+			productReference = C5A631441A280EED00B2BF72 /* WaterMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5A631311A280EED00B2BF72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Robert Jap";
+				TargetAttributes = {
+					C5A631381A280EED00B2BF72 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C5A631431A280EED00B2BF72 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = C5A631341A280EED00B2BF72 /* Build configuration list for PBXProject "WaterMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5A631301A280EED00B2BF72;
+			productRefGroup = C5A6313A1A280EED00B2BF72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5A631381A280EED00B2BF72 /* WaterMonitor */,
+				C5A631431A280EED00B2BF72 /* WaterMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5A631421A280EED00B2BF72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5A631351A280EED00B2BF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A6313F1A280EED00B2BF72 /* Watercooler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5A631401A280EED00B2BF72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59E77331A2A77340067C954 /* WatercoolerTestClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5A631471A280EED00B2BF72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5A631381A280EED00B2BF72 /* WaterMonitor */;
+			targetProxy = C5A631461A280EED00B2BF72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C5A6314B1A280EED00B2BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C5A6314C1A280EED00B2BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5A6314E1A280EED00B2BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		C5A6314F1A280EED00B2BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRIVATE_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		C5A631511A280EED00B2BF72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5A631521A280EED00B2BF72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WaterMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5A631341A280EED00B2BF72 /* Build configuration list for PBXProject "WaterMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A6314B1A280EED00B2BF72 /* Debug */,
+				C5A6314C1A280EED00B2BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A6314D1A280EED00B2BF72 /* Build configuration list for PBXNativeTarget "WaterMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A6314E1A280EED00B2BF72 /* Debug */,
+				C5A6314F1A280EED00B2BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5A631501A280EED00B2BF72 /* Build configuration list for PBXNativeTarget "WaterMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5A631511A280EED00B2BF72 /* Debug */,
+				C5A631521A280EED00B2BF72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5A631311A280EED00B2BF72 /* Project object */;
+}
